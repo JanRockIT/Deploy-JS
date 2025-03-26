@@ -2,9 +2,8 @@
 {
     "name": "deploy-js",
     "version": "1.0.0",
-    "main": "api-deploy/app.js",
     "scripts": {
-        "start": "node api-deploy/post-req.js"
+        "start": "node api-deploy/sum-post-req.js"
     },
     "dependencies": {
         "express": "^4.18.2"
