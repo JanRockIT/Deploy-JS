@@ -1,0 +1,12 @@
+
+{
+    "name": "deploy-js",
+    "version": "1.0.0",
+    "main": "api-deploy/app.js",
+    "scripts": {
+        "start": "node api-deploy/app.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
