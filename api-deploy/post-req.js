@@ -7,6 +7,7 @@ app.use(express.json()); // Body-Parser aktivieren
 app.post('/post', (req, res) => {
     const { message } = req.body;
 
+    console.log(req.body);
     res.json({ message: `Message: ${message}` });
 });
 
