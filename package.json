@@ -1,4 +1,3 @@
-
 {
     "name": "deploy-js",
     "version": "1.0.0",
@@ -6,6 +5,7 @@
         "start": "node api-deploy/sum-post-req.js"
     },
     "dependencies": {
-        "express": "^4.18.2"
+        "express": "^4.18.2",
+        "firebase": "^11.5.0"
     }
 }
