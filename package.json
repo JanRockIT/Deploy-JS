@@ -2,10 +2,11 @@
     "name": "deploy-js",
     "version": "1.0.0",
     "scripts": {
-        "start": "node api-deploy/sum-post-req.js"
+        "start": "node api-deploy/supabase/db-post-req.js"
     },
     "dependencies": {
-        "express": "^4.18.2",
+        "@supabase/supabase-js": "^2.49.4",
+        "express": "^4.21.2",
         "firebase": "^11.5.0"
     }
 }
